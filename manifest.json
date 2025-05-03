@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Wikipedia Lookup",
+  "version": "1.0",
+  "description": "Search selected text on Wikipedia via context menu.",
+  "permissions": ["contextMenus", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon128.png"
+  }
+} 
